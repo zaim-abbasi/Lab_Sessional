@@ -15,3 +15,4 @@ app.use('/customers', createProxyMiddleware({ target: 'customer-service:3005', c
 app.listen(port, () => {
   console.log(`API Gateway running on port ${port}`);
 });
+
